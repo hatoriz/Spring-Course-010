@@ -1,14 +1,16 @@
 #bin/bash
-echo "springboot-data-jpa"
-ls -la
-echo "OrderService"
-cd ./OrderService
+echo "------------> Building Configuration Server -------------"
+cd ./server/Server_Configuration
 ./gradlew build
-echo "ProductService"
-cd ../ProductService
+echo "------------> Building Eureka Service Discovery Server -------------"
+cd ../Server_Eureka
 ./gradlew build
-echo "tracking-service"
-cd ../tracking-service
+echo "------------> Building Order Service-------------"
+cd ../../services/Service_Order
 ./gradlew build
-cd ../edge
+echo "------------> Building Product Service-------------"
+cd ../Service_Product
+./gradlew build
+echo "------------> Building Product Service-------------"
+cd ../Service_Tracking
 ./gradlew build
