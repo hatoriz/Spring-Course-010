@@ -13,9 +13,9 @@ hs_err_pid*
 springdean.iml
 .gradle/2.5/taskArtifacts
 .idea
+*/.gradle/*
 OrderService/.gradle
 OrderService/build
-gradle-wrapper.properties
 springboot-data-jpa/.gradle
 springboot-data-jpa/build
 edge/.gradle
