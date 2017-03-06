@@ -1,5 +1,6 @@
 #bin/bash
 echo "------------> Building Configuration Server -------------"
+ls -la
 cd ./server/Server_Configuration
 ./gradlew build
 echo "------------> Building Eureka Service Discovery Server -------------"
