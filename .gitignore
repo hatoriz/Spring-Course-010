@@ -20,3 +20,5 @@ springboot-data-jpa/.gradle
 springboot-data-jpa/build
 edge/.gradle
 edge/build
+server/Server_Configuration/build/libs/
+springboot-edge-service/node_modules
