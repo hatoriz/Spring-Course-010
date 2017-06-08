@@ -8,6 +8,11 @@ How to start
 
 ## How to integrate with Eureka
 Put eureka config to file bootstrap.yml
+
+## Hystrix Dashboard
+- Start _hystrix dashboard app_
+- Open http://localhost:5050/hystrix.stream
+- Hystrix Stream: http://192.168.1.106:6060/hystrix.stream
 ```
 eureka:
   client:
